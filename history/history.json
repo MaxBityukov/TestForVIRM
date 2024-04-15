@@ -2,13 +2,22 @@
   "40b6185c4912e0297b8a051a574bbfb9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "10b41ad2407ca440",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: headless chrome=112.0.5615.165)",
+      "time" : {
+        "start" : 1713190026667,
+        "stop" : 1713190043768,
+        "duration" : 17101
+      }
+    }, {
       "uid" : "67d84f0ba3ee8aca",
       "status" : "passed",
       "time" : {

@@ -8,13 +8,13 @@
         "name" : "TestCreateProject",
         "children" : [ {
           "name" : "Create new project",
-          "uid" : "67d84f0ba3ee8aca",
+          "uid" : "10b41ad2407ca440",
           "parentUid" : "69c9ab1f19e23b667a43ba63d0dab7c1",
-          "status" : "passed",
+          "status" : "broken",
           "time" : {
-            "start" : 1713189777238,
-            "stop" : 1713189793683,
-            "duration" : 16445
+            "start" : 1713190026667,
+            "stop" : 1713190043768,
+            "duration" : 17101
           },
           "flaky" : false,
           "newFailed" : false,
