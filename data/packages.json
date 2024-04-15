@@ -4,13 +4,13 @@
     "name" : "tests.create_project_test",
     "children" : [ {
       "name" : "Create new project",
-      "uid" : "a46466681adbbd8d",
+      "uid" : "acfb85f68b2f1d84",
       "parentUid" : "9b4a8a869bbcbbeebda17ef2ab8c7e39",
       "status" : "passed",
       "time" : {
-        "start" : 1713191327498,
-        "stop" : 1713191344889,
-        "duration" : 17391
+        "start" : 1713191513521,
+        "stop" : 1713191531405,
+        "duration" : 17884
       },
       "flaky" : false,
       "newFailed" : false,
