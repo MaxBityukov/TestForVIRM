@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "76a5b2b0b626b899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713190226489,
+        "stop" : 1713190245160,
+        "duration" : 18671
+      }
+    }, {
       "uid" : "10b41ad2407ca440",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: headless chrome=112.0.5615.165)",

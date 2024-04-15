@@ -1,11 +1,11 @@
 [ {
-  "uid" : "10b41ad2407ca440",
+  "uid" : "76a5b2b0b626b899",
   "name" : "Create new project",
   "time" : {
-    "start" : 1713190026667,
-    "stop" : 1713190043768,
-    "duration" : 17101
+    "start" : 1713190226489,
+    "stop" : 1713190245160,
+    "duration" : 18671
   },
-  "status" : "broken",
+  "status" : "passed",
   "severity" : "critical"
 } ]
