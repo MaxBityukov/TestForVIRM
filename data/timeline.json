@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "522d6067f128",
+    "children" : [ {
+      "name" : "1-MainThread",
+      "children" : [ {
+        "name" : "Create new project",
+        "uid" : "67d84f0ba3ee8aca",
+        "parentUid" : "65c5eca9f445c7eb57b7f58c2141293b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713189777238,
+          "stop" : 1713189793683,
+          "duration" : 16445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65c5eca9f445c7eb57b7f58c2141293b"
+    } ],
+    "uid" : "59c38e2ff7252abf1897f0fb8f47a2e0"
+  } ],
+  "name" : "timeline"
+}
