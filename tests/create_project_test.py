@@ -19,7 +19,7 @@ class TestCreateProject(BaseTest):
         self.login_page.click_submit_button()
         self.dashboard_page.click_projects_link()
         self.project_page.add_new_project()
-        self.project_page.input_name(f"Test+{datetime.datetime.now()}")
+        self.project_page.input_name(f"Test+{datetime.datetime.today()}")
         self.project_page.click_type_project()
         self.project_page.select_type_project()
         self.project_page.click_type_client()
@@ -35,9 +35,9 @@ class TestCreateProject(BaseTest):
         #time.sleep(4)
         self.project_page.set_end_date()
         self.project_page.save_project()
-        time.sleep(2)
+        time.sleep(3)
         self.project_page.input_search_new_project(f"Test+{datetime.date.today()}")
-        time.sleep(1)
+        time.sleep(2)
         self.project_page.make_screenshot("Success")
 
 
