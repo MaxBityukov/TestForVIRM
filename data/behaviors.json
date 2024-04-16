@@ -4,13 +4,13 @@
     "name" : "Create and save project",
     "children" : [ {
       "name" : "Create new project",
-      "uid" : "ffc9f24eb37c14d3",
+      "uid" : "f71db792cfc0ecbf",
       "parentUid" : "3bfaed5ba626d0cc6d1976d15535e4ce",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1713260018916,
-        "stop" : 1713260037442,
-        "duration" : 18526
+        "start" : 1713260999505,
+        "stop" : 1713261018184,
+        "duration" : 18679
       },
       "flaky" : false,
       "newFailed" : false,
