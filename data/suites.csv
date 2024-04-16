@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Apr 15 14:37:39 GMT 2024","Mon Apr 15 14:38:01 GMT 2024","21435","tests","create_project_test","TestCreateProject","","","Create new project",""
+"broken","Tue Apr 16 09:18:12 GMT 2024","Tue Apr 16 09:18:31 GMT 2024","18762","tests","create_project_test","TestCreateProject","","","Create new project",""
