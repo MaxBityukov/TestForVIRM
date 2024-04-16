@@ -1,26 +1,26 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "237a60ed0b06",
+    "name" : "c607896eba70",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "Create new project",
-        "uid" : "14b0ccb0b99153d4",
-        "parentUid" : "a79231344674b263270b1826e488471a",
+        "uid" : "ffc9f24eb37c14d3",
+        "parentUid" : "c2ad7f9dd9b572b869a9f7cf352d6304",
         "status" : "passed",
         "time" : {
-          "start" : 1713259488531,
-          "stop" : 1713259510559,
-          "duration" : 22028
+          "start" : 1713260018916,
+          "stop" : 1713260037442,
+          "duration" : 18526
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a79231344674b263270b1826e488471a"
+      "uid" : "c2ad7f9dd9b572b869a9f7cf352d6304"
     } ],
-    "uid" : "56db78c448c1ee028585f750a0c662a2"
+    "uid" : "99d2582c14f45a713b4018b73f77994d"
   } ],
   "name" : "timeline"
 }

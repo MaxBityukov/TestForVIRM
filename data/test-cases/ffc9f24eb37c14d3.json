@@ -1,12 +1,12 @@
 {
-  "uid" : "14b0ccb0b99153d4",
+  "uid" : "ffc9f24eb37c14d3",
   "name" : "Create new project",
   "fullName" : "tests.create_project_test.TestCreateProject#test_create_new_project",
   "historyId" : "40b6185c4912e0297b8a051a574bbfb9",
   "time" : {
-    "start" : 1713259488531,
-    "stop" : 1713259510559,
-    "duration" : 22028
+    "start" : 1713260018916,
+    "stop" : 1713260037442,
+    "duration" : 18526
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,57 +14,57 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713259488530,
-      "stop" : 1713259488530,
-      "duration" : 0
+      "start" : 1713260018915,
+      "stop" : 1713260018916,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false,
-    "shouldDisplayMessage" : false
+    "hasContent" : false
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1713259488120,
-      "stop" : 1713259488530,
-      "duration" : 410
+      "start" : 1713260018525,
+      "stop" : 1713260018915,
+      "duration" : 390
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false,
-    "shouldDisplayMessage" : false
+    "hasContent" : false
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Open https://identity.virm.dmbasis.agency/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Did_token%2520token%26client_id%3DRxCode.Front%26redirect_uri%3Dhttps%253A%252F%252Fvirm.dmbasis.agency%252Fcallback%252F%26scope%3Dopenid%2520profile%2520projects%2520customers%2520communications%26nonce%3DN0.15440098974108341709131200623%26state%3D17091312006230.3192009011058454 page",
       "time" : {
-        "start" : 1713259488531,
-        "stop" : 1713259490738,
-        "duration" : 2207
+        "start" : 1713260018916,
+        "stop" : 1713260020504,
+        "duration" : 1588
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1713259490738,
-        "stop" : 1713259490850,
-        "duration" : 112
+        "start" : 1713260020504,
+        "stop" : 1713260020602,
+        "duration" : 98
       },
       "status" : "passed",
       "steps" : [ ],
@@ -74,15 +74,15 @@
         "value" : "'admin@rxcode.ru'"
       } ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true,
-      "shouldDisplayMessage" : false
+      "hasContent" : true
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1713259490850,
-        "stop" : 1713259490905,
-        "duration" : 55
+        "start" : 1713260020602,
+        "stop" : 1713260020655,
+        "duration" : 53
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,257 +92,212 @@
         "value" : "'987456'"
       } ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : true,
-      "shouldDisplayMessage" : false
+      "hasContent" : true
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1713259490905,
-        "stop" : 1713259490948,
-        "duration" : 43
+        "start" : 1713260020656,
+        "stop" : 1713260020696,
+        "duration" : 40
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Click on 'PROJECT' link",
       "time" : {
-        "start" : 1713259490948,
-        "stop" : 1713259496445,
-        "duration" : 5497
+        "start" : 1713260020696,
+        "stop" : 1713260024816,
+        "duration" : 4120
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Click button add new project",
       "time" : {
-        "start" : 1713259496446,
-        "stop" : 1713259497673,
-        "duration" : 1227
+        "start" : 1713260024816,
+        "stop" : 1713260024885,
+        "duration" : 69
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Input name",
       "time" : {
-        "start" : 1713259497673,
-        "stop" : 1713259497937,
-        "duration" : 264
+        "start" : 1713260024886,
+        "stop" : 1713260026106,
+        "duration" : 1220
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "input name 'Test+2024-04-16 09:24:57.672960'",
+        "name" : "input name 'Test+2024-04-16 09:33:44.885386'",
         "time" : {
-          "start" : 1713259497673,
-          "stop" : 1713259497937,
-          "duration" : 264
+          "start" : 1713260024886,
+          "stop" : 1713260026106,
+          "duration" : 1220
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false,
-        "shouldDisplayMessage" : false
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "new_name",
-        "value" : "'Test+2024-04-16 09:24:57.672960'"
+        "value" : "'Test+2024-04-16 09:33:44.885386'"
       } ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 1,
-      "hasContent" : true,
-      "shouldDisplayMessage" : false
+      "hasContent" : true
     }, {
       "name" : "Click dropdown type project",
       "time" : {
-        "start" : 1713259497938,
-        "stop" : 1713259498001,
-        "duration" : 63
+        "start" : 1713260026106,
+        "stop" : 1713260026155,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Select type project",
       "time" : {
-        "start" : 1713259498001,
-        "stop" : 1713259499067,
-        "duration" : 1066
+        "start" : 1713260026155,
+        "stop" : 1713260027212,
+        "duration" : 1057
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Click dropdown type client",
       "time" : {
-        "start" : 1713259499067,
-        "stop" : 1713259499401,
-        "duration" : 334
+        "start" : 1713260027213,
+        "stop" : 1713260027530,
+        "duration" : 317
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Select type project",
       "time" : {
-        "start" : 1713259499401,
-        "stop" : 1713259500489,
-        "duration" : 1088
+        "start" : 1713260027530,
+        "stop" : 1713260028600,
+        "duration" : 1070
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Click dropdown brand",
       "time" : {
-        "start" : 1713259500489,
-        "stop" : 1713259500817,
-        "duration" : 328
+        "start" : 1713260028600,
+        "stop" : 1713260028919,
+        "duration" : 319
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Select brand",
       "time" : {
-        "start" : 1713259500817,
-        "stop" : 1713259501882,
-        "duration" : 1065
+        "start" : 1713260028919,
+        "stop" : 1713260029980,
+        "duration" : 1061
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Click by start date",
       "time" : {
-        "start" : 1713259501883,
-        "stop" : 1713259502246,
-        "duration" : 363
+        "start" : 1713260029980,
+        "stop" : 1713260030342,
+        "duration" : 362
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Select start date",
       "time" : {
-        "start" : 1713259502246,
-        "stop" : 1713259503318,
-        "duration" : 1072
+        "start" : 1713260030342,
+        "stop" : 1713260030400,
+        "duration" : 58
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
       "name" : "Set start date",
       "time" : {
-        "start" : 1713259503318,
-        "stop" : 1713259503386,
-        "duration" : 68
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Click by end date",
-      "time" : {
-        "start" : 1713259503386,
-        "stop" : 1713259503749,
-        "duration" : 363
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Select end date",
-      "time" : {
-        "start" : 1713259504749,
-        "stop" : 1713259504817,
-        "duration" : 68
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "attachmentsCount" : 0,
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "Set end date",
-      "time" : {
-        "start" : 1713259504818,
-        "stop" : 1713259504884,
+        "start" : 1713260030400,
+        "stop" : 1713260030466,
         "duration" : 66
       },
       "status" : "passed",
@@ -350,47 +305,92 @@
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
     }, {
-      "name" : "Save project",
+      "name" : "Click by end date",
       "time" : {
-        "start" : 1713259504884,
-        "stop" : 1713259505220,
-        "duration" : 336
+        "start" : 1713260030466,
+        "stop" : 1713260030662,
+        "duration" : 196
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false
+      "hasContent" : false
+    }, {
+      "name" : "Select end date",
+      "time" : {
+        "start" : 1713260031662,
+        "stop" : 1713260031721,
+        "duration" : 59
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Set end date",
+      "time" : {
+        "start" : 1713260031722,
+        "stop" : 1713260031783,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Save project",
+      "time" : {
+        "start" : 1713260031784,
+        "stop" : 1713260032112,
+        "duration" : 328
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
     }, {
       "name" : "created new project",
       "time" : {
-        "start" : 1713259508221,
-        "stop" : 1713259508421,
-        "duration" : 200
+        "start" : 1713260035112,
+        "stop" : 1713260035304,
+        "duration" : 192
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "input new project 'Test+2024-04-16'",
         "time" : {
-          "start" : 1713259508221,
-          "stop" : 1713259508421,
-          "duration" : 200
+          "start" : 1713260035112,
+          "stop" : 1713260035304,
+          "duration" : 192
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
         "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
         "stepsCount" : 0,
-        "hasContent" : false,
-        "shouldDisplayMessage" : false
+        "hasContent" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ {
@@ -398,45 +398,45 @@
         "value" : "'Test+2024-04-16'"
       } ],
       "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
       "stepsCount" : 1,
-      "hasContent" : true,
-      "shouldDisplayMessage" : false
+      "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "19e8ff2ccefbd00f",
+      "uid" : "c39f687db051c765",
       "name" : "Success",
-      "source" : "19e8ff2ccefbd00f.png",
+      "source" : "c39f687db051c765.png",
       "type" : "image/png",
-      "size" : 90577
+      "size" : 99100
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 23,
-    "hasContent" : true,
-    "shouldDisplayMessage" : false
+    "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1713259510560,
-      "stop" : 1713259510650,
-      "duration" : 90
+      "start" : 1713260037443,
+      "stop" : 1713260037529,
+      "duration" : 86
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
     "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false,
-    "shouldDisplayMessage" : false
+    "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "feature",
-    "value" : "Create and save project"
-  }, {
     "name" : "severity",
     "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "Create and save project"
   }, {
     "name" : "tag",
     "value" : "smoke"
@@ -451,7 +451,7 @@
     "value" : "TestCreateProject"
   }, {
     "name" : "host",
-    "value" : "237a60ed0b06"
+    "value" : "c607896eba70"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -481,11 +481,19 @@
         "failed" : 0,
         "broken" : 3,
         "skipped" : 0,
-        "passed" : 6,
+        "passed" : 7,
         "unknown" : 0,
-        "total" : 9
+        "total" : 10
       },
       "items" : [ {
+        "uid" : "14b0ccb0b99153d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713259488531,
+          "stop" : 1713259510559,
+          "duration" : 22028
+        }
+      }, {
         "uid" : "c477e494eb34afe2",
         "status" : "broken",
         "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: headless chrome=112.0.5615.165)",
@@ -556,6 +564,6 @@
     },
     "tags" : [ "smoke" ]
   },
-  "source" : "14b0ccb0b99153d4.json",
+  "source" : "ffc9f24eb37c14d3.json",
   "parameterValues" : [ ]
 }
