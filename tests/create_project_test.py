@@ -19,7 +19,7 @@ class TestCreateProject(BaseTest):
         self.login_page.click_submit_button()
         self.dashboard_page.click_projects_link()
         self.project_page.add_new_project()
-        self.project_page.input_name(f"Test+{datetime.datetime.today()}")
+        self.project_page.input_name(f"Test+{datetime.date.today()}")
         self.project_page.click_type_project()
         self.project_page.select_type_project()
         self.project_page.click_type_client()
